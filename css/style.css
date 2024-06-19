@@ -1,6 +1,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--main-brown);
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -376,7 +378,7 @@ h4{
 
 .nudy {
     position: relative;
-    margin-bottom: 120px;
+    margin-bottom: 0;
 }
 
 .nudy-description {
@@ -410,7 +412,9 @@ h4{
 }
 
 /* bullets */
-
+.bullets{
+    padding: 40px 0;
+}
 .bullets h2{
     text-align: center;
 }
@@ -431,4 +435,17 @@ h4{
 .bullets ul li b{
     display: block;
     font-size: 20px;
+}
+
+
+footer{
+    background-color: var(--main-white);
+    text-align: center;
+    
+}
+
+
+footer p{
+    margin: 0;
+    padding: 15px;
 }
