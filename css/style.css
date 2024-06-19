@@ -92,7 +92,7 @@ header img {
 }
 
 .about div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.425);
     width: 30%;
     margin: 50px;
     padding: 45px;
