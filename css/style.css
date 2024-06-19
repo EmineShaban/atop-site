@@ -74,7 +74,7 @@ header img {
     color: var(--main-brown-black);
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 40px;
     text-align: center;
     margin: 0;
@@ -92,7 +92,7 @@ header img {
 }
 
 .about div {
-    background-color: rgba(255, 255, 255, 0.304);
+    background-color: rgb(255, 255, 255);
     width: 30%;
     margin: 50px;
     padding: 45px;
@@ -577,30 +577,138 @@ footer p {
     }
 
     .about div {
-        background-color: rgb(255 255 255 / 82%);
+        background-color: rgb(255, 255, 255);
         width: 80%;
     }
 
-    .logos{
+    .logos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         gap: 25px;
     }
-    .logos a{
+
+    .logos a {
         margin: auto;
     }
+
+    .wow,
+    .nudy,
+    .ayra,
+    .onyco,
+    .uthin,
+    .leuzea {
+        background-color: white;
+        padding-bottom: 50px;
+
+    }
+
     .wow-description,
     .ayra-description,
     .onyco-description,
     .uthin-description,
     .leuzea-description,
-    .nudy-description{
+    .nudy-description {
         position: unset;
         top: 50%;
         left: 50%;
         transform: none;
         background-color: white;
         padding: 40px 20px;
+    }
+
+    .bullets ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin: 40px auto;
+    }
+
+    .about div {
+        margin: 40px auto;
+        margin-top: -80px;
+        z-index: 2;
+        position: relative;
+    }
+
+    header img {
+        width: 55px;
+    }
+
+    .logos img {
+        width: 110px;
+    }
+
+    .logos a:nth-child(1) img,
+    .logos a:nth-child(3) img {
+        width: 80px;
+    }
+
+    .logos a:nth-child(6) img {
+        width: 140px;
+    }
+
+    .bullets {
+        padding-top: 70px;
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .wow,
+    .nudy,
+    .ayra,
+    .onyco,
+    .uthin,
+    .leuzea {
+        margin-bottom: 70px;
+
+    }
+
+    .hero h1 {
+        font-size: 33px;
+    }
+
+    .bullets {
+        padding-top: 0;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about div {
+        padding: 30px 20px;
+
+    }
+
+    .bullets ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+}
+
+@media screen and (max-width: 411px) {
+
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero div {
+        padding: 30px ;
     }
 }
