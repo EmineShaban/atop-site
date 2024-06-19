@@ -417,10 +417,18 @@ h4{
 .bullets ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 40px;
+    margin: 40px auto;
 }
 
 .bullets ul li{
     background-color: var(--main-white);
-    padding: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 1.4;
+}
+
+.bullets ul li b{
+    display: block;
+    font-size: 20px;
 }
